@@ -17,10 +17,19 @@
   font-size: 16pt;
   color:white;
   z-index: 99;
+  -webkit-user-select: none;  
+  -moz-user-select: none;    
+  -ms-user-select: none;      
+  user-select: none;
 } 
 
 .CandyBar_Item:hover {
   background-color: rgba(52, 186, 235, 1);
+}
+
+.CandyBar_Item:active {
+  background-color: rgba(52, 186, 235, 0.25);
+  color:gray;
 }
 
 .CandyBar_Success {
