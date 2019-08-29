@@ -4,9 +4,9 @@
   cursor:pointer;
   margin: 0.75rem;
   padding: 0.75rem;
-  min-height: 4rem;
+  min-height: 2rem;
   max-width: 18rem;
-  background-color: rgba(52, 186, 235, 0.75);
+  background-color: rgba(200, 200, 200, 0.75);
   border-radius: 0.25rem;
   -webkit-box-shadow: 5px 5px 15px -5px rgba(0,0,0,0.5);
   -moz-box-shadow: 5px 5px 15px -5px rgba(0,0,0,0.5);
@@ -21,31 +21,58 @@
   -moz-user-select: none;    
   -ms-user-select: none;      
   user-select: none;
+  text-align: center;
 } 
 
-.CandyBar_Item:hover {
+.CandyBar_Success {
+  background-color: rgba(76, 235, 52, 0.75);
+
+}
+.CandyBar_Success:hover {
+  background-color: rgba(76, 235, 52, 1);
+}
+
+.CandyBar_Success:active {
+  background-color: rgba(76, 235, 52, 0.25);
+  color:gray;
+}
+
+.CandyBar_Info {
+  background-color: rgba(52, 186, 235, 0.75);
+}
+.CandyBar_Info:hover {
   background-color: rgba(52, 186, 235, 1);
 }
 
-.CandyBar_Item:active {
+.CandyBar_Info:active {
   background-color: rgba(52, 186, 235, 0.25);
   color:gray;
 }
 
-.CandyBar_Success {
-  
-}
-
-.CandyBar_Info {
-  
-}
-
 .CandyBar_Warning {
+  background-color: rgba(235, 229, 52, 0.75);
   
+}
+.CandyBar_Warning:hover {
+  background-color: rgba(235, 229, 52, 1);
+}
+
+.CandyBar_Warning:active {
+  background-color: rgba(235, 229, 52, 0.25);
+  color:gray;
 }
 
 .CandyBar_Error {
+  background-color: rgba(235, 52, 61, 0.75);
   
+}
+.CandyBar_Error:hover {
+  background-color: rgba(235, 52, 61, 1);
+}
+
+.CandyBar_Error:active {
+  background-color: rgba(235, 52, 61, 0.25);
+  color:gray;
 }
 
 .CandyBar_Container {
