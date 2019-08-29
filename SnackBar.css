@@ -9,13 +9,14 @@
   background-color: rgba(52, 186, 235, 0.75);
   border-radius: 0.25rem;
   -webkit-box-shadow: 5px 5px 15px -5px rgba(0,0,0,0.5);
--moz-box-shadow: 5px 5px 15px -5px rgba(0,0,0,0.5);
-box-shadow: 5px 5px 15px -5px rgba(0,0,0,0.5);
+  -moz-box-shadow: 5px 5px 15px -5px rgba(0,0,0,0.5);
+  box-shadow: 5px 5px 15px -5px rgba(0,0,0,0.5);
   text-align: justify;
   text-justify: inter-word;
   font-family: "Roboto";
   font-size: 16pt;
   color:white;
+  z-index: 99;
 } 
 
 .CandyBar_Item:hover {
@@ -42,4 +43,6 @@ box-shadow: 5px 5px 15px -5px rgba(0,0,0,0.5);
   position: absolute;
   top: 0px;
   right: 0px;
+  height: 100%;
+  overflow-y: hidden;
 }
